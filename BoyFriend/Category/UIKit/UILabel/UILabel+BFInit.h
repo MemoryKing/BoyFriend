@@ -12,14 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param text 文本
 /// @param color 颜色
 /// @param font 字体
-+ (UILabel *)bf_createWithText:(NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font;
++ (UILabel *)bf_createWithText:(nullable NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font;
 
 //MARK: - 构建->位置-文本-颜色-字体
 /// @param frame 位置
 /// @param text 文本
 /// @param color 颜色
 /// @param font 字体
-+ (UILabel *)bf_createWithFrame:(CGRect)frame text:(NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font;
++ (UILabel *)bf_createWithFrame:(CGRect)frame text:(nullable NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font;
 
 //MARK: - 构建->位置-文本-颜色-字体-是否自适应
 /// @param frame 位置
@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param color 颜色
 /// @param font 字体
 /// @param isAdjust 是否自适应
-+ (UILabel *)bf_createWithFrame:(CGRect)frame text:(NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font adjustText:(BOOL)isAdjust;
++ (UILabel *)bf_createWithFrame:(CGRect)frame text:(nullable NSString *)text color:(nullable UIColor *)color font:(nullable UIFont *)font adjustText:(BOOL)isAdjust;
 
 @end
 
